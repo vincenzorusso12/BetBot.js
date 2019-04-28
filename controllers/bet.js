@@ -10,12 +10,6 @@ class BetController extends Telegram.TelegramBaseController {
 		var preNum = input[1];
 		var number = 0;
 	
-		s.getUserSession('someKey').then(data => {
-        if (!data) {
-			console.log('è null')
-		}
-    })
-
 		if (/^\d+$/.test(preNum)) {
 			number = parseInt(preNum);
 		}
