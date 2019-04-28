@@ -6,7 +6,7 @@ Built using telegram-node-bot API.
 
 1. Download and extract all the files
 
-2. Create your Telegram Bot from BotFather 
+2. Create your Telegram Bot from BotFather and update the Token
 
 3. Run index.js
 
