@@ -2,7 +2,7 @@
 
 const Telegram = require('telegram-node-bot'),
 
-	tg = new Telegram.Telegram('yourTokem', {
+	tg = new Telegram.Telegram('yourToken', {
 		workers: 1
 	});
 
